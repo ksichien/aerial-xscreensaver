@@ -31,4 +31,4 @@ for aerial in ARL:
                     if chunk:
                         videoFile.write(chunk)
 
-shutil.copy2('./aerial-player.sh', '/usr/lib/xscreensaver/aerial')
+shutil.copy2('aerial-player.sh', DLDIR)
