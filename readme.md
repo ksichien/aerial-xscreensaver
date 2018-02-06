@@ -7,7 +7,7 @@ It will also place a second script called `aerial-player` inside this folder.
 
 This script should be renamed to `aerial` and copied to `/usr/lib/xscreensaver` so XScreenSaver Preferences can use it.
 
-Afterwards, the `~/.xscreensaver` file needs to be edited, the second script needs to be referenced in the `programs` section:
+Afterwards, the `aerial` script needs to be referenced in the `programs` section of the `~/.xscreensaver` file:
 ```
 programs:                                                                     \
                                 aerial                                      \n\
