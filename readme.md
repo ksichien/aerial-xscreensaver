@@ -1,6 +1,8 @@
-# aerial-xscreensaver
+# Aerial XScreenSaver
 
 This project contains scripts that can be used to set up XScreenSaver on GNU/Linux to use the latest Apple TV Aerial videos as a screensaver.
+
+## Usage
 
 First, `aerial-downloader` will need to be executed. This script will download all of the latest Apple TV Aerial videos to a folder called 'Aerial' in the user's home folder.
 It will also place a second script called `aerial-player` inside this folder.
